@@ -9,16 +9,36 @@ function sideBar({ isOpen, toggle }) {
             </Icon>
             <SideBarWrapper>
                 <SideBarMenu>
-                    <SideBarLink to="about" onClick={toggle}>
+                    <SideBarLink to="about"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        onClick={toggle}>
                         Aboout
                     </SideBarLink>
-                    <SideBarLink to="discover" onClick={toggle}>
+                    <SideBarLink to="discover"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        onClick={toggle}>
                         Discover
                     </SideBarLink>
-                    <SideBarLink to="services" onClick={toggle}>
+                    <SideBarLink to="services"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        onClick={toggle}>
                         Services
                     </SideBarLink>
-                    <SideBarLink to="signup" onClick={toggle}>
+                    <SideBarLink to="signup"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        onClick={toggle}>
                         Sign Up
                     </SideBarLink>
                 </SideBarMenu>
